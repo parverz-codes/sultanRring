@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sultan Ring — Ottoman Heritage Jewelry</title>
+<link rel="stylesheet" href="./css/style.css">
+<link rel="stylesheet" href="./css/responsive.css">
+<link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700;900&family=Cinzel+Decorative:wght@400;700&family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;1,300;1,400&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Custom cursor -->
+    <div id="cursor"></div>
+    <div id="cursor-ring"></div>
+
+    <!-- ══════ NAV ══════ -->
+    <nav>
+    <div class="nav-logo gold-text">Sultan Ring</div>
+    <ul class="nav-links">
+        <li><a href="#products">Collection</a></li>
+        <li><a href="#craft">Craftsmanship</a></li>
+        <li><a href="#about">Heritage</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="nav-cta">Shop Now</button>
+    </nav>
+
+    <!-- ══════ HERO ══════ -->
+    <section class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <!-- Mini emblem -->
+            <svg class="hero-emblem" viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+                <linearGradient id="hg" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#8a6420"/>
+                <stop offset="40%" stop-color="#f0c860"/>
+                <stop offset="65%" stop-color="#fde89a"/>
+                <stop offset="100%" stop-color="#c9953a"/>
+                </linearGradient>
+            </defs>
+            <circle cx="90" cy="90" r="86" fill="none" stroke="url(#hg)" stroke-width="1" stroke-dasharray="5 5" opacity=".4"/>
+            <circle cx="90" cy="90" r="78" fill="none" stroke="url(#hg)" stroke-width="1.8" opacity=".7"/>
+            <circle cx="90" cy="90" r="72" fill="none" stroke="url(#hg)" stroke-width=".6" opacity=".4"/>
+            <circle cx="90" cy="90" r="66" fill="#0e0e0e"/>
+            <!-- Star -->
+            <g transform="translate(90,90)">
+                <rect x="-22" y="-22" width="44" height="44" fill="none" stroke="url(#hg)" stroke-width="1.5" opacity=".8"/>
+                <rect x="-22" y="-22" width="44" height="44" fill="none" stroke="url(#hg)" stroke-width="1.5" opacity=".8" transform="rotate(45)"/>
+            </g>
+            <!-- Crescent -->
+            <path d="M 80 34 A 13 13 0 1 1 100 34 A 8 8 0 1 0 80 34 Z" fill="url(#hg)" opacity=".9"/>
+            <!-- Ring shape -->
+            <path d="M 65 110 Q 62 128 76 136 Q 90 144 104 136 Q 118 128 115 110" fill="none" stroke="url(#hg)" stroke-width="2.5" stroke-linecap="round"/>
+            <!-- Gem -->
+            <polygon points="90,96 99,102 99,112 90,118 81,112 81,102" fill="#0e0e0e" stroke="url(#hg)" stroke-width="1.5"/>
+            <circle cx="87" cy="100" r="1.5" fill="url(#hg)" opacity=".8"/>
+            <!-- Dots -->
+            <circle cx="90" cy="162" r="3" fill="url(#hg)" opacity=".6"/>
+            <circle cx="18"  cy="90"  r="3" fill="url(#hg)" opacity=".6"/>
+            <circle cx="162" cy="90"  r="3" fill="url(#hg)" opacity=".6"/>
+            </svg>
+
+            <div class="hero-eyebrow">Ottoman Heritage Jewelry</div>
+            <h1 class="hero-title gold-text">Sultan<br>Ring</h1>
+            <div class="hero-subtitle">Wear the Empire</div>
+            <p class="hero-desc">Each piece carries centuries of Ottoman artistry — forged in tradition, worn by those who command attention.</p>
+            <div class="hero-btns">
+                <button class="btn-primary">Explore Collection</button>
+                <button class="btn-outline">Our Story</button>
+            </div>
+        </div>
+        <div class="scroll-hint">
+            <div class="scroll-line"></div>
+            Scroll
+        </div>
+    </section>
+
+    <!-- ══════ MARQUEE ══════ -->
+    <div class="marquee-strip">
+    <div class="marquee-track">
+        <span class="marquee-item">Authentic Ottoman Design</span><span class="marquee-dot">◆</span>
+        <span class="marquee-item">Handcrafted Excellence</span><span class="marquee-dot">◆</span>
+        <span class="marquee-item">925 Sterling Silver</span><span class="marquee-dot">◆</span>
+        <span class="marquee-item">24K Gold Plated</span><span class="marquee-dot">◆</span>
+        <span class="marquee-item">Free Shipping Bangladesh</span><span class="marquee-dot">◆</span>
+        <span class="marquee-item">Authentic Ottoman Design</span><span class="marquee-dot">◆</span>
+        <span class="marquee-item">Handcrafted Excellence</span><span class="marquee-dot">◆</span>
+        <span class="marquee-item">925 Sterling Silver</span><span class="marquee-dot">◆</span>
+        <span class="marquee-item">24K Gold Plated</span><span class="marquee-dot">◆</span>
+        <span class="marquee-item">Free Shipping Bangladesh</span><span class="marquee-dot">◆</span>
+    </div>
+    </div>
+    <!-- ══════ PRODUCTS ══════ -->
+    <section class="products" id="products">
+    <div class="products-header">
+        <div class="section-label">The Collection</div>
+        <h2 class="section-title gold-text">Imperial Rings</h2>
+        <p class="section-desc" style="margin:0 auto;">Masterpieces drawn from the ateliers of Constantinople — each ring a story of power, beauty, and legacy.</p>
+        <div class="filter-tabs">
+        <button class="filter-btn active">All Rings</button>
+        <button class="filter-btn">Silver</button>
+        <button class="filter-btn">Gold Plated</button>
+        <button class="filter-btn">Gemstone</button>
+        <button class="filter-btn">Men's</button>
+        <button class="filter-btn">Women's</button>
+        </div>
+    </div>
+
+    <div class="products-grid">
+
+        <!-- Product 1 -->
+        <div class="product-card">
+        <div class="product-img-wrap">
+            <span class="product-badge">Bestseller</span>
+            <img src="./img/S8ab285c25b7749bb82eb60234da9db06c.jpg_220x220q75.jpg_.avif" alt="">
+            <div class="product-overlay"><button class="quick-view">Quick View</button></div>
+        </div>
+        <div class="product-info">
+            <div class="product-name">Suleiman Band</div>
+            <div class="product-origin">925 Silver · Ottoman Star</div>
+            <div class="product-footer">
+            <div class="product-price gold-text">৳ 1200</div>
+            <button class="product-add">+</button>
+            </div>
+        </div>
+        </div>
+
+        <!-- Product 2 -->
+        <div class="product-card">
+        <div class="product-img-wrap">
+            <span class="product-badge" style="background:transparent;border:1px solid var(--gold);color:var(--gold);">New</span>
+            <img src="./img/S40ea9c94ff004da9b861641320079ab3B.jpg_220x220q75.jpg_.avif" alt="">
+            <div class="product-overlay"><button class="quick-view">Quick View</button></div>
+        </div>
+        <div class="product-info">
+            <div class="product-name">Crescent Signet</div>
+            <div class="product-origin">24K Gold Plated · Oval Face</div>
+            <div class="product-footer">
+            <div class="product-price gold-text">৳ 1,000</div>
+            <button class="product-add">+</button>
+            </div>
+        </div>
+        </div>
+
+        <!-- Product 3 -->
+        <div class="product-card">
+        <div class="product-img-wrap">
+            <img src="https://ae-pic-a1.aliexpress-media.com/kf/Hb86dea128bd14237a1f4fb0761bb00f2o.jpg_220x220q75.jpg_.avif" alt="">
+            <div class="product-overlay"><button class="quick-view">Quick View</button></div>
+        </div>
+        <div class="product-info">
+            <div class="product-name">Star of Ertugrul</div>
+            <div class="product-origin">Sterling Silver · 5-Point Star</div>
+            <div class="product-footer">
+            <div class="product-price gold-text">৳ 800</div>
+            <button class="product-add">+</button>
+            </div>
+        </div>
+        </div>
+
+        <!-- Product 4 -->
+        <div class="product-card">
+        <div class="product-img-wrap">
+            <span class="product-badge" style="background:#8a6420;">Limited</span>
+            <img src="https://ae-pic-a1.aliexpress-media.com/kf/S5bffaebef5d54b5fa8eb15445a921340p.jpg_220x220q75.jpg_.avif" alt="">
+            <div class="product-overlay"><button class="quick-view">Quick View</button></div>
+        </div>
+        <div class="product-info">
+            <div class="product-name">Topkapi Gem Ring</div>
+            <div class="product-origin">Gold Plated · Blue Stone</div>
+            <div class="product-footer">
+            <div class="product-price gold-text">৳ 1,100</div>
+            <button class="product-add">+</button>
+            </div>
+        </div>
+        </div>
+
+        <!-- Product 5 -->
+        <div class="product-card">
+        <div class="product-img-wrap">
+            <img src="https://ae-pic-a1.aliexpress-media.com/kf/Sc269ac4274e04174b961ad3ebced4897w.jpg_220x220q75.jpg_.avif" alt="">
+            <div class="product-overlay"><button class="quick-view">Quick View</button></div>
+        </div>
+        <div class="product-info">
+            <div class="product-name">Tughra Scroll Ring</div>
+            <div class="product-origin">925 Silver · Calligraphy Art</div>
+            <div class="product-footer">
+            <div class="product-price gold-text">৳ 1,250</div>
+            <button class="product-add">+</button>
+            </div>
+        </div>
+        </div>
+
+        <!-- Product 6 -->
+    </div>
+
+    <div style="text-align:center;margin-top:56px;">
+        <button class="btn-outline">View Full Collection</button>
+    </div>
+    </section>
+
+    <!-- ══════ ABOUT / HERITAGE ══════ -->
+    <section class="about" id="about">
+    <div class="about-inner">
+        <div>
+        <div class="section-label">Our Heritage</div>
+        <h2 class="section-title gold-text">Born from the<br>Ottoman Empire</h2>
+        <p class="section-desc">Sultan Ring brings the grandeur of the Ottoman Imperial court to your fingertips. Every design is rooted in centuries-old Turkish artistry — from the geometric precision of Iznik tilework to the fluid calligraphy of the Tughra seal.</p>
+        <p class="section-desc" style="margin-top:20px;">We source authentic Turkish craftsmanship, working directly with master silversmiths in Istanbul's Grand Bazaar to ensure every ring tells a true story of heritage.</p>
+        <div class="about-stats">
+            <div class="stat">
+            <div class="stat-num gold-text">500+</div>
+            <div class="stat-label">Happy Customers</div>
+            </div>
+            <div class="stat">
+            <div class="stat-num gold-text">50+</div>
+            <div class="stat-label">Ring Designs</div>
+            </div>
+            <div class="stat">
+            <div class="stat-num gold-text">925</div>
+            <div class="stat-label">Sterling Silver</div>
+            </div>
+            <div class="stat">
+            <div class="stat-num gold-text">100%</div>
+            <div class="stat-label">Authentic</div>
+            </div>
+        </div>
+        </div>
+        <div class="about-visual">
+        <svg viewBox="0 0 360 360" xmlns="http://www.w3.org/2000/svg">
+            <defs>
+            <linearGradient id="ag" x1="0%" y1="0%" x2="100%" y2="100%">
+                <stop offset="0%" stop-color="#8a6420"/>
+                <stop offset="40%" stop-color="#f0c860"/>
+                <stop offset="70%" stop-color="#fde89a"/>
+                <stop offset="100%" stop-color="#c9953a"/>
+            </linearGradient>
+            </defs>
+            <!-- Outer decorative rings -->
+            <circle cx="180" cy="180" r="170" fill="none" stroke="url(#ag)" stroke-width="1" stroke-dasharray="6 8" opacity=".3"/>
+            <circle cx="180" cy="180" r="158" fill="none" stroke="url(#ag)" stroke-width="1.5" opacity=".5"/>
+            <circle cx="180" cy="180" r="148" fill="none" stroke="url(#ag)" stroke-width=".6" opacity=".3"/>
+            <!-- Background fill -->
+            <circle cx="180" cy="180" r="140" fill="#0e0e0e"/>
+            <circle cx="180" cy="180" r="140" fill="none" stroke="url(#ag)" stroke-width="2.5"/>
+            <!-- Geometric Islamic pattern -->
+            <g transform="translate(180,180)" stroke="url(#ag)" stroke-width="1.2" fill="none" opacity=".8">
+            <!-- Large octagon -->
+            <polygon points="0,-90 63,-63 90,0 63,63 0,90 -63,63 -90,0 -63,-63"/>
+            <!-- Inner octagon -->
+            <polygon points="0,-55 38,-38 55,0 38,38 0,55 -38,38 -55,0 -38,-38"/>
+            <!-- Star lines -->
+            <line x1="0" y1="-90" x2="0" y2="-55"/>
+            <line x1="63" y1="-63" x2="38" y2="-38"/>
+            <line x1="90" y1="0" x2="55" y2="0"/>
+            <line x1="63" y1="63" x2="38" y2="38"/>
+            <line x1="0" y1="90" x2="0" y2="55"/>
+            <line x1="-63" y1="63" x2="-38" y2="38"/>
+            <line x1="-90" y1="0" x2="-55" y2="0"/>
+            <line x1="-63" y1="-63" x2="-38" y2="-38"/>
+            <!-- Connecting diagonals -->
+            <line x1="63" y1="-63" x2="-63" y2="63" opacity=".4"/>
+            <line x1="-63" y1="-63" x2="63" y2="63" opacity=".4"/>
+            <line x1="0" y1="-90" x2="0" y2="90" opacity=".4"/>
+            <line x1="-90" y1="0" x2="90" y2="0" opacity=".4"/>
+            </g>
+            <!-- Center gem -->
+            <circle cx="180" cy="180" r="26" fill="#0a0a0a" stroke="url(#ag)" stroke-width="2"/>
+            <circle cx="180" cy="180" r="14" fill="url(#ag)" opacity=".9"/>
+            <circle cx="180" cy="180" r="6" fill="#fde89a"/>
+            <!-- Crescent top -->
+            <path d="M 168 44 A 16 16 0 1 1 192 44 A 10 10 0 1 0 168 44 Z" fill="url(#ag)" opacity=".85"/>
+            <!-- Corner gems -->
+            <circle cx="40"  cy="40"  r="5" fill="url(#ag)" opacity=".6"/>
+            <circle cx="320" cy="40"  r="5" fill="url(#ag)" opacity=".6"/>
+            <circle cx="40"  cy="320" r="5" fill="url(#ag)" opacity=".6"/>
+            <circle cx="320" cy="320" r="5" fill="url(#ag)" opacity=".6"/>
+        </svg>
+        </div>
+    </div>
+    </section>
+
+    <!-- ══════ CRAFT PROCESS ══════ -->
+    <section class="craft" id="craft">
+    <div class="craft-inner">
+        <div class="section-label">Our Process</div>
+        <h2 class="section-title gold-text">The Art of<br>Craftsmanship</h2>
+        <div class="craft-grid">
+        <div class="craft-step">
+            <div class="step-num">01</div>
+            <div class="step-icon">✦</div>
+            <div class="step-title">Design</div>
+            <div class="step-desc">Each ring begins as a sketch inspired by Ottoman architectural details — arabesques, geometric stars, and imperial seals.</div>
+        </div>
+        <div class="craft-step">
+            <div class="step-num">02</div>
+            <div class="step-icon">⚒</div>
+            <div class="step-title">Forging</div>
+            <div class="step-desc">Master Turkish silversmiths hand-forge each piece using traditional lost-wax casting techniques passed through generations.</div>
+        </div>
+        <div class="craft-step">
+            <div class="step-num">03</div>
+            <div class="step-icon">◆</div>
+            <div class="step-title">Finishing</div>
+            <div class="step-desc">Gold plating, stone setting, and hand-engraving are applied to bring each design to its full imperial glory.</div>
+        </div>
+        <div class="craft-step">
+            <div class="step-num">04</div>
+            <div class="step-icon">♛</div>
+            <div class="step-title">Quality Seal</div>
+            <div class="step-desc">Every Sultan Ring is inspected, certified, and packaged in a luxury Ottoman-inspired gift box before reaching your hands.</div>
+        </div>
+        </div>
+    </div>
+    </section>
+
+    <!-- ══════ TESTIMONIALS ══════ -->
+    <section class="testimonials">
+    <div class="section-label" style="justify-content:center;"><span></span>Customer Stories</div>
+    <h2 class="section-title gold-text">What They Say</h2>
+    <div class="testi-grid" style="max-width:1100px;margin:0 auto;">
+        <div class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-text">"The Suleiman Band exceeded every expectation. The weight, the finish, the detail — it truly feels like wearing a piece of history."</p>
+        <div class="testi-name">Rafiq Al-Hassan</div>
+        <div class="testi-loc">Dhaka, Bangladesh</div>
+        </div>
+        <div class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-text">"I gifted the Crescent Signet to my husband and he hasn't taken it off since. The packaging alone made it feel like a royal gift."</p>
+        <div class="testi-name">Nusrat Jahan</div>
+        <div class="testi-loc">Chittagong, Bangladesh</div>
+        </div>
+        <div class="testi-card">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-text">"Authentic Ottoman quality at a fair price. Sultan Ring is unlike anything available locally. Fast delivery and beautiful craftsmanship."</p>
+        <div class="testi-name">Tariq Mahmood</div>
+        <div class="testi-loc">Sylhet, Bangladesh</div>
+        </div>
+    </div>
+    </section>
+
+    <!-- ══════ NEWSLETTER ══════ -->
+    <div class="newsletter">
+    <div class="newsletter-inner">
+        <h2 class="newsletter-title gold-text">Join the Empire</h2>
+        <p class="newsletter-desc">Be the first to discover new collections, exclusive offers, and the stories behind each Sultan Ring design.</p>
+        <div class="newsletter-form">
+        <input class="newsletter-input" type="email" placeholder="Your email address">
+        <button class="newsletter-btn">Subscribe</button>
+        </div>
+    </div>
+    </div>
+
+    <!-- ══════ CONTACT ══════ -->
+    <section class="contact" id="contact">
+        <div class="contact-inner">
+            <div>
+            <div class="section-label">Get in Touch</div>
+            <h2 class="section-title gold-text">Contact Us</h2>
+            <p class="section-desc">Questions about sizing, custom orders, or bulk purchasing? Our team is ready to assist you.</p>
+            <div class="contact-info">
+                <div class="contact-item">
+                <div class="contact-icon">📍</div>
+                <div>
+                    <div class="contact-item-label">Location</div>
+                    <div class="contact-item-val">Chattogram, Bangladesh</div>
+                </div>
+                </div>
+                <div class="contact-item">
+                <div class="contact-icon">📱</div>
+                <div>
+                    <div class="contact-item-label">WhatsApp</div>
+                    <div class="contact-item-val">
+                        +880 1616797706
+                    </div>
+                </div>
+                </div>
+                <div class="contact-item">
+                <div class="contact-icon">✉</div>
+                <div>
+                    <div class="contact-item-label">Email</div>
+                    <div class="contact-item-val">sultanring.official@gmail.com</div>
+                </div>
+                </div>
+                <div class="contact-item">
+                <div class="contact-icon">🕐</div>
+                <div>
+                    <div class="contact-item-label">Hours</div>
+                    <div class="contact-item-val">Sat–Thu, 10am – 9pm</div>
+                </div>
+                </div>
+            </div>
+            </div>
+            <div>
+                <div class="section-label" style="margin-top:0;" >Send Message</div>
+                <div class="contact-form">
+                    <div class="form-row">
+                    <div class="form-group">
+                        <label class="form-label">Full Name</label>
+                        <input class="form-input" type="text" placeholder="Your name">
+                    </div>
+                    <div class="form-group">
+                        <label class="form-label">Phone</label>
+                        <input class="form-input" type="tel" placeholder="+880">
+                    </div>
+                    </div>
+                    <div class="form-group">
+                    <label class="form-label">Email</label>
+                    <input class="form-input" type="email" placeholder="your@email.com">
+                    </div>
+                    <div class="form-group">
+                    <label class="form-label">Message</label>
+                    <textarea class="form-textarea" rows="5" placeholder="Tell us about your order or inquiry..."></textarea>
+                    </div>
+                    <button class="btn-primary" style="align-self:flex-start;">Send Message</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ══════ FOOTER ══════ -->
+    <footer>
+        <div class="footer-top">
+            <div>
+                <div class="footer-brand-name gold-text">Sultan Ring</div>
+                <p class="footer-brand-desc">Bringing centuries of Ottoman artistry to Bangladesh. Each ring is a legacy — wear yours with pride.</p>
+                <div class="footer-socials">
+                    <a href="#" class="social-btn">f</a>
+                    <a href="#" class="social-btn">in</a>
+                    <a href="#" class="social-btn">📷</a>
+                    <a href="#" class="social-btn">▶</a>
+                </div>
+            </div>
+            <div>
+                <div class="footer-col-title">Collection</div>
+                <ul class="footer-links">
+                    <li><a href="#">Silver Rings</a></li>
+                    <li><a href="#">Gold Plated</a></li>
+                    <li><a href="#">Gemstone Rings</a></li>
+                    <li><a href="#">Men's Rings</a></li>
+                    <li><a href="#">Women's Rings</a></li>
+                </ul>
+            </div>
+            <div>
+                <div class="footer-col-title">Information</div>
+                <ul class="footer-links">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Our Story</a></li>
+                    <li><a href="#">Craftsmanship</a></li>
+                    <li><a href="#">Size Guide</a></li>
+                    <li><a href="#">Care Guide</a></li>
+                </ul>
+            </div>
+            <div>
+                <div class="footer-col-title">Support</div>
+                <ul class="footer-links">
+                    <li><a href="#">FAQs</a></li>
+                    <li><a href="#">Shipping Policy</a></li>
+                    <li><a href="#">Returns</a></li>
+                    <li><a href="#">Track Order</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div class="footer-copy">© 2025 Sultan Ring. All rights reserved. Crafted with Ottoman pride.</div>
+            <div class="footer-legal">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/app.js"></script>
+    <script src="./js/cart.js"></script>
+</body>
+</html>

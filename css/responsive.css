@@ -1,0 +1,18 @@
+@media(max-width:900px){
+  nav{padding:16px 24px;}
+  .nav-links{display:none;}
+  section{padding:70px 24px;}
+  .about-inner,.contact-inner{grid-template-columns:1fr;}
+  .craft-grid{grid-template-columns:1fr 1fr;}
+  .testi-grid{grid-template-columns:1fr;}
+  .footer-top{grid-template-columns:1fr 1fr;}
+  .hero{padding:100px 24px 60px;}
+  .form-row{grid-template-columns:1fr;}
+  .newsletter-form{flex-direction:column;}
+  .newsletter-input{border-right:1px solid rgba(201,149,58,.3);border-bottom:none;}
+}
+@media(max-width:560px){
+  .products-grid{grid-template-columns:1fr 1fr;}
+  .craft-grid{grid-template-columns:1fr;}
+  .footer-top{grid-template-columns:1fr;}
+}
