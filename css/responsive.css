@@ -15,4 +15,17 @@
   .products-grid{grid-template-columns:1fr 1fr;}
   .craft-grid{grid-template-columns:1fr;}
   .footer-top{grid-template-columns:1fr;}
+  .product-img-wrap {
+    aspect-ratio: 1;
+    position: relative;
+    overflow: hidden;
+    background: var(--bg3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .product-img-wrap img{
+    max-width: 132px;
+    max-height: 132px;
+  }
 }
