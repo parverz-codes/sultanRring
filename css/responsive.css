@@ -24,6 +24,25 @@
     align-items: center;
     justify-content: center;
   }
+  .product-footer{
+    flex-direction: column; 
+    align-items: flex-start;
+    gap: 12px;
+  }
+  .product-add{
+    margin-top: 5px;
+    width:113px;
+    height:38px;
+    border:1px solid var(--gold);
+    background:transparent;color:var(--gold);
+    font-size:17px;
+    cursor:none;
+    display:flex;
+    flex-wrap: nowrap;
+    align-items:center;
+    justify-content:center;
+    transition:all .3s;
+  }
   .product-img-wrap img{
     max-width: 132px;
     max-height: 132px;

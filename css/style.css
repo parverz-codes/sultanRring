@@ -75,9 +75,9 @@ nav{
   letter-spacing:4px;
 }
 .nav-links{
-    display:flex;
-    gap:36px;
-    list-style:none;
+  display:flex;
+  gap:36px;
+  list-style:none;
 }
 .nav-links a{
   font-family:'Cinzel',serif;
@@ -334,9 +334,12 @@ section{padding:100px 60px;}
   display:flex;align-items:center;justify-content:center;
 }
 .product-img-wrap::after{
-  content:'';position:absolute;inset:0;
+  content:'';
+  position:absolute;
+  inset:0;
   background:linear-gradient(135deg,rgba(201,149,58,.1),transparent);
-  opacity:0;transition:opacity .4s;
+  opacity:0;
+  transition:opacity .4s;
 }
 .product-svg{width:70%;height:70%;transition:transform .6s ease;}
 .product-card:hover .product-svg{transform:scale(1.05) rotate(3deg);}
@@ -371,20 +374,31 @@ section{padding:100px 60px;}
   font-size:13px;font-style:italic;color:var(--muted);margin-bottom:16px;
 }
 .product-footer{
-  display:flex;align-items:center;justify-content:space-between;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
 }
 .product-price{
-  font-family:'Cinzel Decorative',serif;font-size:18px;
+  font-family:'Cinzel Decorative',serif;
+  font-size:18px;
 }
 .product-add{
-  width:38px;height:38px;
+  width:128px;
+  height:38px;
   border:1px solid var(--gold);
   background:transparent;color:var(--gold);
-  font-size:20px;cursor:none;
-  display:flex;align-items:center;justify-content:center;
+  font-size:17px;
+  cursor:none;
+  display:flex;
+  align-items:center;
+  justify-content:center;
   transition:all .3s;
 }
 .product-add:hover{background:var(--gold);color:#080808;}
+.product-img-wrap img{
+  max-width: 400px;
+  max-height: 250px;
+}
 
 /* ══════════════════════════════
    PROCESS / CRAFT
@@ -572,4 +586,6 @@ footer{
   font-family:'Cinzel',serif;font-size:9px;letter-spacing:2px;
   text-transform:uppercase;color:var(--muted);text-decoration:none;
 }
-.footer-legal a:hover{color:var(--gold);}
+.footer-legal a:hover{
+  color:var(--gold);
+}
